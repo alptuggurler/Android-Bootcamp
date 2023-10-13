@@ -1,6 +1,6 @@
 package com.example.kotlindersleri.nesne_tabanlı_programlama
 
-class Araba(var renk:String , var hiz:Int ,var calisiyormu : Boolean ) {
+data class Araba(var renk:String , var hiz:Int ,var calisiyormu : Boolean ) {
     init {// bir classdan nesne oluşturdunda çalışan kod
         println("******Constructor çalıştı*****")
     }
